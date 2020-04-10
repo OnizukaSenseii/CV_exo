@@ -1,0 +1,44 @@
+h3
+{
+    color: blue;
+    font-family : "Times New Roman";
+}
+
+.TitreCV
+{
+	font-size: 40px;
+	font-family : "Times New Roman";
+	color: blue;
+}
+
+.poste
+{
+	font-size: 20px;
+	font-family : Georgia ;
+}
+
+.diplome
+{
+	font-size: 14px;
+	font-family : Georgia;
+	color: maroon;	
+    font-weight: bold;
+}
+
+.missions
+{
+	font-size: 12px;
+	font-family : Georgia;
+	color: yellow;	
+}
+
+.etablissement
+{
+	color: red;
+	font-size: 16px;
+}
+
+.date
+{
+	color: gray;
+}
