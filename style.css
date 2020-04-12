@@ -1,11 +1,35 @@
-h3
+body
 {
-    color: blue;
-    font-family : "Times New Roman";
+
 }
+
+
+
+#lisiere/* sélectionne id lisiere et les paragraphes*/
+
+{
+	float: left;
+	width: 30%; /* largeur de la secteur*/
+	background-color: teal;
+	font-size: 16px;
+	font-family : Georgia ;
+
+}
+
+#informations /* sélectionne les titres h3 dans l'ID informations*/
+{
+	float: right;
+	width: 60%;
+	background-color: aqua;
+
+    /*word-wrap: break-word;*/
+}
+
 
 .TitreCV
 {
+	background-color: silver;
+	text-decoration: underline; 
 	font-size: 40px;
 	font-family : "Times New Roman";
 	color: blue;
@@ -40,5 +64,7 @@ h3
 
 .date
 {
-	color: gray;
+	color: purple;
 }
+
+
