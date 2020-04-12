@@ -4,23 +4,37 @@ body
 }
 
 
-
-#lisiere/* sélectionne id lisiere et les paragraphes*/
-
+#lisiere
 {
-	float: left;
-	width: 30%; /* largeur de la secteur*/
-	background-color: teal;
-	font-family : Georgia ;
-	max-height: auto;
 
+	background-color: teal;
+	box-sizing: border-box;
+	border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom:2px solid black; /*bordure du bas */
+    border-top:2px solid black; /* bordure du haut */
+    padding: 12px; /* Marge intérieure de 12px */    
+	float: left;
+	width: 30% /* largeur du secteur*/
+	margin-bottom: -1000px;   /* astuce du margin et du padding pour que les deux divs aient la même longueur. */
+    padding-bottom: 630px;
+
+
+    /*word-wrap: break-word;*/
 }
 
-#informations /* sélectionne les titres h3 dans l'ID informations*/
+
+#informations 
 {
+	border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom:2px solid black; /*bordure du bas */
+    border-top:2px solid black; /* bordure du haut */
+    padding: 12px; /* Marge intérieure de 12px */    
 	float: right;
-	width: 65%;
+	width: 65%; /* largeur du secteur*/
 	background-color: aqua;
+
 
     /*word-wrap: break-word;*/
 }
@@ -33,7 +47,6 @@ body
 	font-size: 40px;
 	font-family : "Times New Roman";
 	color: blue;
-	border : 6px,  blue, solid;	
 }
 
 .poste
