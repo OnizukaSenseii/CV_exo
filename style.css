@@ -11,15 +11,15 @@ body
 	float: left;
 	width: 30%; /* largeur de la secteur*/
 	background-color: teal;
-	font-size: 16px;
 	font-family : Georgia ;
+	max-height: auto;
 
 }
 
 #informations /* sélectionne les titres h3 dans l'ID informations*/
 {
 	float: right;
-	width: 60%;
+	width: 65%;
 	background-color: aqua;
 
     /*word-wrap: break-word;*/
@@ -33,11 +33,12 @@ body
 	font-size: 40px;
 	font-family : "Times New Roman";
 	color: blue;
+	border : 6px,  blue, solid;	
 }
 
 .poste
 {
-	font-size: 20px;
+	font-size: 30px;
 	font-family : Georgia ;
 }
 
@@ -49,12 +50,12 @@ body
     font-weight: bold;
 }
 
-.missions
+/*.missions
 {
 	font-size: 12px;
 	font-family : Georgia;
-	color: yellow;	
-}
+	color: white;	
+}/*/
 
 .etablissement
 {
