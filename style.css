@@ -3,24 +3,43 @@ body
 
 }
 
-
-
-#lisiere/* sélectionne id lisiere et les paragraphes*/
-
+h1
 {
-	float: left;
-	width: 30%; /* largeur de la secteur*/
-	background-color: teal;
-	font-size: 16px;
-	font-family : Georgia ;
-
+	font-size: 50px;
 }
 
-#informations /* sélectionne les titres h3 dans l'ID informations*/
+
+#lisiere
 {
+
+	background-color: teal;
+	box-sizing: border-box;
+	border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom:2px solid black; /*bordure du bas */
+    border-top:2px solid black; /* bordure du haut */
+    padding: 12px; /* Marge intérieure de 12px */    
+	float: left;
+	width: 30% /* largeur du secteur*/
+	margin-bottom: -1000px;   /* astuce du margin et du padding pour que les deux divs aient la même longueur. */
+    padding-bottom: 703px;
+
+
+    /*word-wrap: break-word;*/
+}
+
+
+#informations 
+{
+	border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom:2px solid black; /*bordure du bas */
+    border-top:2px solid black; /* bordure du haut */
+    padding: 12px; /* Marge intérieure de 12px */    
 	float: right;
-	width: 60%;
+	width: 65%; /* largeur du secteur*/
 	background-color: aqua;
+
 
     /*word-wrap: break-word;*/
 }
@@ -37,7 +56,7 @@ body
 
 .poste
 {
-	font-size: 20px;
+	font-size: 30px;
 	font-family : Georgia ;
 }
 
@@ -49,12 +68,12 @@ body
     font-weight: bold;
 }
 
-.missions
+/*.missions
 {
 	font-size: 12px;
 	font-family : Georgia;
-	color: yellow;	
-}
+	color: white;	
+}/*/
 
 .etablissement
 {
