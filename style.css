@@ -3,6 +3,11 @@ body
 
 }
 
+h1
+{
+	font-size: 50px;
+}
+
 
 #lisiere
 {
@@ -17,7 +22,7 @@ body
 	float: left;
 	width: 30% /* largeur du secteur*/
 	margin-bottom: -1000px;   /* astuce du margin et du padding pour que les deux divs aient la même longueur. */
-    padding-bottom: 630px;
+    padding-bottom: 703px;
 
 
     /*word-wrap: break-word;*/
