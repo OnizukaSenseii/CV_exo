@@ -8,10 +8,16 @@ h1
 	font-size: 50px;
 }
 
+h2
+{
+	font-size: 30px;
+}
 
 #lisiere
 {
-
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
 	background-color: teal;
 	box-sizing: border-box;
 	border-left: 2px solid black;
@@ -21,8 +27,8 @@ h1
     padding: 12px; /* Marge intérieure de 12px */    
 	float: left;
 	width: 30% /* largeur du secteur*/
-	margin-bottom: -1000px;   /* astuce du margin et du padding pour que les deux divs aient la même longueur. */
-    padding-bottom: 703px;
+	argin-bottom: -1000px;   /*mastuce du margin et du padding pour que les deux divs aient la même longueur. */
+    padding-bottom: 893px;
 
 
     /*word-wrap: break-word;*/
@@ -31,6 +37,9 @@ h1
 
 #informations 
 {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;	
 	border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom:2px solid black; /*bordure du bas */
