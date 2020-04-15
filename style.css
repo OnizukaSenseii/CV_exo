@@ -15,29 +15,28 @@ h2
 
 #lisiere
 {
-	display: flex;
-	flex-direction: column;
-	align-content: flex-start;
+	display: flex; /*création conteneur flex*/	
+	flex-direction: column; /*Disposition colonne*/
+	align-content: flex-start;	
 	background-color: teal;
-	box-sizing: border-box;
-	border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom:2px solid black; /*bordure du bas */
-    border-top:2px solid black; /* bordure du haut */
     padding: 12px; /* Marge intérieure de 12px */    
 	float: left;
 	width: 30% /* largeur du secteur*/
-	argin-bottom: -1000px;   /*mastuce du margin et du padding pour que les deux divs aient la même longueur. */
-    padding-bottom: 893px;
-
-
+	margin-bottom: -1000px;   /*taille de la marge extérieure*/
+    padding-bottom: 893px;  /*taille de la marge intérieure*/
+	box-sizing: border-box;    
+	border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom:2px solid black; /*bordure du bas */
+    border-top:2px solid black; /* bordure du haut */    
     /*word-wrap: break-word;*/
 }
 
 
 #informations 
 {
-	display: flex;
+
+	display: flex; /*création conteneur flex*/
 	flex-direction: column;
 	align-content: flex-start;	
 	border-left: 2px solid black;
@@ -48,7 +47,6 @@ h2
 	float: right;
 	width: 65%; /* largeur du secteur*/
 	background-color: aqua;
-
 
     /*word-wrap: break-word;*/
 }
