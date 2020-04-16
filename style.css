@@ -9,6 +9,7 @@ body
 h1
 {
 	font-size: 50px;
+    text-align: center;	
 }
 
 h3
@@ -217,12 +218,12 @@ h3
 		flex-direction: column-reverse;
 	}
 
-	#contact
+	/*#contact
 	{
 		display: flex;
 		overflow: auto;
 		word-wrap: break-word;	
 		flex-direction: column-reverse;	
-	}
+	}*/
 
 }
