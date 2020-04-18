@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
@@ -13,11 +13,9 @@
 
     <body>
     	<section id="cvsection">
-
-			<div id="paragraphelisiere">
     			<article id="lisiere">
-    				<figure class="PhotoProfil">
-    					<a target="_blank" href ="img/urahara.png"> <img src="img/urahara_mini.png"  alt="Image Photo de Profil URAHARA" title ="Cliquez sur la photo pour l'agrandir" > <!-- target="_blank" OBLIGATOIREMENT après "<a" sinon ça ne marche pas-->
+    				<figure class="PhotoProfilDesktop">
+    					<a target="_blank" href ="img/urahara.png"> <img src="img/urahara_mini.png"  alt="Photo de Profil URAHARA" title ="Cliquez sur la photo pour l'agrandir" > <!-- target="_blank" OBLIGATOIREMENT après "<a" sinon ça ne marche pas-->
     					</a> <!-- alt renvoie le texte si l'image ne s'affiche pas -->
     					<figcaption>Photo de Profil </figcaption>
     				</figure>
@@ -25,11 +23,11 @@
 
     				<h2> Contact</h2>
 
-    				<i class="fas fa-map-marked-alt" style="font-size:20px">  14 allée du Hueco Mundo app 220<br/>
+    				<i class="fas fa-map-marked-alt icone">  14 allée du Hueco Mundo app 220<br/>
     				33000 KONOHA<br/><br/></i>
-    				<i class="fas fa-envelope-open-text" style="font-size:24px">  urahara@toto.com<br/><br/></i>
-    				<i class="fas fa-mobile-alt" style="font-size:24px">  0602233232<br/><br/></i>
-    				</p>
+    				<i class="fas fa-envelope-open-text icone">  urahara@toto.com<br/><br/></i>
+    				<i class="fas fa-mobile-alt icone">  0602233232<br/><br/></i>
+    			
 
     				<h2> Compétences </h2><br/>
 						<ul id="competences">
@@ -37,7 +35,7 @@
 							<li>Méthodes de prévision de vente</li>
 							<li>Outils de planification/Ordonnancement (Gantt, PERT)</li>
 							<li>Utilisation de divers Prologiciel (AS400, Irium)</li>
-							<li>Word/Excel/Powerpoint/Visio/Access</li><br/><br/>
+							<li>Word/Excel/Powerpoint/Visio/Access</li>
 						</ul>
 
 					<h2 id="loisirs"> Loisirs </h2><br/>
@@ -49,27 +47,33 @@
 					<i class="fas fa-football-ball" style="font-size:36px;color:red"></i>
 
 				</article>
-			</div>
 
-    		<aside id ="informations">
+    		<article id ="informations">
 
     			<h1>URAHARA</h1>
-    			<h3>Gestionnaire des flux physiques et d’informations</h3>
+					<figure class="PhotoProfilSmart">
+    					<a target="_blank" href ="img/urahara.png"> <img src="img/urahara_mini.png"  alt="Photo de Profil URAHARA" title ="Cliquez sur la photo pour l'agrandir" > <!-- target="_blank" OBLIGATOIREMENT après "<a" sinon ça ne marche pas-->
+    					</a> <!-- alt renvoie le texte si l'image ne s'affiche pas -->
+    					<figcaption>Photo de Profil </figcaption>
+    				</figure>    			
+    			<h2>Gestionnaire des flux physiques et d’informations</h2>
 
        			<p class="TitreCV">EXPERIENCES</p>
 
-        		<span class="poste">PREPARATEUR DE COMMANDE<br/></span> <!-- pas de titre dans la balise paragraphe -->
-        		<span class="etablissement">CERP Bordeaux<br/></span>
-    			<span class="date">Depuis mars 2018<br/></span>
+        		<div  class="descriptifposte"> <!-- pas de titre dans la balise paragraphe -->
+        		<div  class="etablissement">CERP Bordeaux</div>
+    			<div class="date">Depuis mars 2018<br/></div>
+    			<h3>PREPARATEUR DE COMMANDE</h3>
 
     				<ul class="missions">
     					<li>Gestion des commandes clients en respectant les départs des tournées</li>
     				</ul>
+    			</div>
 
-    			<span class="poste">GESTIONNAIRE DES STOCKS<br/></span>
-    			<span class="etablissement">(Stage 12 semaines-Manitou Global Services Ancenis)<br/></span>
+    			<div class="descriptifposte">
+    			<span class="etablissement">Manitou Global Services Ancenis-Stage 12 semaines</span>
     			<span class="date">Mars 2017 – Juin 2017</span>
-   	
+    			<h3>GESTIONNAIRE DES STOCKS</h3>   	
 
 					<ul class="missions">
 						<li>Optimisation des magasins de pièces détachées</li>
@@ -77,36 +81,42 @@
 						<li>Mise en place d’un stock mini et maxi</li>
 						<li>Etudes des pièces de rechanges neuves (Consommation et Rotation de sortie)</li>
 					</ul>
+				</div>
 
-				
-				<span class="poste">CHAUFFEUR LIVREUR<br/></span>
-				<span class="etablissement">(Job étudiant - CERP Agen)<br/></span>
+				<div class="descriptifposte">
+				<span class="etablissement">CERP Agen-Job étudiant</span>
 				<span class="date">Septembre 2016 – Mars 2017<br/></span>
+				<h3>CHAUFFEUR LIVREUR</h3>	
 
 					<ul class="missions">
 						<li>Livraison des commandes clients suivant la tournée</li>
 						<li>Rangement des produits par ordre de tournée</li>
 					</ul>
+				</div>
 
-				<span class="poste">GESTIONNAIRE DES STOCKS<br/></span>
-				<span class="etablissement">(Stage 4 semaines - CERP Bordeaux)<br/></span>
+				<div class="descriptifposte">				
+				<span class="etablissement">CERP Bordeaux-Stage 4 semaines</span>
 				<span class="date">Janvier 2016<br/></span>
+				<h3>GESTIONNAIRE DES STOCKS</h3>
 
 					<ul class="missions">
 						<li>Inventaire avec le SME (Système Mobile Embarqué)</li>
 						<li>Gestion des alertes (écarts de stock, contrôle de lot)</li>
 						<li>Déplacement des produits en stock</li>
 					</ul>
+				</div>
 
-				<span class="poste">MAGASINIER-PREPARATEUR DE COMMANDE<br/></span>
-				<span class="etablissement">(Job étudiant + CDD - CERP Bordeaux)<br/></span>
+				<div class="descriptifposte">
+				<span class="etablissement">CERP Bordeaux-CDD</span>
 				<span class="date">2011 – 2016<br/></span>
+				<h3>MAGASINIER-PREPARATEUR DE COMMANDE</h3>
 
 					<ul class="missions">
 						<li>Gestion d’un stock (méthode FIFO-FEFO)</li>
 						<li>Réapprovisionnement</li>
 						<li>Mise en stock des produits</li>
 					</ul>
+				</div>
 
 				<p class="TitreCV">FORMATIONS</p>
 
@@ -123,7 +133,7 @@
 				<span class="diplome">BAC STI ELECTRONIQUE<br/></span>
 				<span class="date">2010<br/></span>
 				<span class="etablissement">Lycée Pape Clément Bordeaux<br/><br/></span>
-			</aside>
+			</article>
 
 
 		</section>
