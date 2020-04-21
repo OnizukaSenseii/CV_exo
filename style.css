@@ -1,5 +1,6 @@
 body
 {
+	position: relative;
 
 }
 
@@ -27,12 +28,13 @@ h3
 
 #cvsection
 {
-	position: relative;
+	position: absolute;
+	width: 100%;
 }
 
 #lisiere
 {
-	position: relative;
+	position: absolute; 
 	display: flex;
 	flex-direction: column;
 	background-color: teal;
@@ -44,14 +46,15 @@ h3
     padding: 12px; /* Marge intérieure de 12px */    
 	float: left;
 	height: 100%;
-	width: 30%; /* largeur du secteur*
-    /*word-wrap: break-word;*/
+	width: 35%; /* largeur du secteur*/
+    word-wrap: break-word;
 }
 
 
 #informations 
 {
-	position: relative;	
+	float: right;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	border-left: 2px solid black;
@@ -59,42 +62,61 @@ h3
     border-bottom:2px solid black; /*bordure du bas */
     border-top:2px solid black; /* bordure du haut */
     padding: 12px; /* Marge intérieure de 12px */    
-	float: right;
-	width: 65%; /* largeur du secteur*/
+	height: 100%;
+	width: 60%; /* largeur du secteur*/
 	background-color: aqua;
-
+    word-wrap: break-word;
 
 
 }
 
 #competences
 {
+	position: relative;
 	overflow: auto;
 	word-wrap: break-word;
 }
 
 #contact
 {
+	position: relative;
 	overflow: auto; /*Coupe le bloc si dépassement des mots du cadre*/
 	word-wrap: break-word;	
 }
 
-/*.fas.fa-map-marked-alt
-{	
-	font-size: 62px;
+#loisirs
+{
+	position: relative;	
+}
 
-}*/
 
 .PhotoProfilSmart
 {
 	display: none;
+
 }
 
-.PhotoProfil
+#legendephotosmart
 {
-	overflow: auto;
-	word-wrap: break-word;		
+	display: none;
 }
+
+#legendephotodesktop
+{
+	padding-left: 100px;
+}
+
+.PhotoProfilDesktop
+{	
+	display: block;
+	margin-left: 50px;
+    overflow:hidden;
+    position: relative;
+  	width : 200px;
+  	height: 200px;    
+  	border-radius: 50%
+}
+
 .TitreCV
 {
 	background-color: silver;
@@ -125,12 +147,11 @@ h3
 	flex-wrap: nowrap;
 	width: 70%;
 	float: right;
-  	
 }
 
 .etablissement
 {
-
+	display: flex;
 	color: red;
 	float: right;
 	display: flex;
@@ -153,17 +174,24 @@ h3
 /*       ///////Code pour les petits écrans////////       */
 @media screen and (max-width: 1280px)
 {
+	body
+	{
+		position: relative;
+	}
 
 	#cvsection
 	{
+		position: absolute;
 		display: flex;
 		flex-direction: column-reverse;
 		flex : auto	;
 	    background-color: white;	
+	    width: 100%;
 	}
 
 	#lisiere
 	{
+		position: relative;		
 		flex-direction: column;	
 		background-color: gray;
     	width: 100%;  
@@ -172,11 +200,12 @@ h3
 
 	#informations 
 	{
+		position: relative;
 		display: flex;
 		flex-direction: column;	
 		background-color: aqua;		
-    	padding: 12px; /* Marge intérieure de 12px */  
-    	width: 100%;    
+    	padding: 12px; /* Marge intérieure de 12px  */ 
+    	width: auto;    
 
 
 	}
@@ -185,10 +214,27 @@ h3
 		display: none;
 	}
 
+	#legendephotodesktop
+{
+	display: none;
+}
+
+
+	#legendephotosmart
+	{
+		margin-left: 400px;
+
+	}
+
 	.PhotoProfilSmart
 	{
 		display: block;
-	    text-align: center;		
+   		overflow:hidden;
+   		margin-left: 370px;
+    	position: relative;
+  		width : 150px;
+  		height: 150px;    
+  		border-radius: 50%		
 
 	}
 
@@ -212,5 +258,10 @@ h3
 		word-wrap: break-word;
 		flex-direction: column-reverse;
 	}
+
+	#contact 
+	{
+		text-align: center;		
+	} 
 
 }
