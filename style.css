@@ -23,7 +23,7 @@ h2
 h3
 {
 	font-size: 18px;
-	text-align: center;
+	margin-left: 30%;
     font-weight: normal;
     margin-top: -1%;
 }
@@ -34,7 +34,12 @@ h2 #titreposte
 	text-decoration-color: teal;	
 
 }
-
+#positionphotodesktop
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 #cvsection
 {
 	position: absolute;
@@ -60,7 +65,7 @@ h2 #titreposte
 	height: 100%;
 	width: 35%; /* largeur du secteur*/
     word-wrap: break-word;
-    align-items: center;
+    align-items: left;
 }
 
 
@@ -106,6 +111,8 @@ h2 #titreposte
 .coordonnees
 {
 	margin-top: 3%;
+	width: 100%;
+	text-align: left;
 	font-size: 20px;
 	font-family : "Times New Roman";  
 }
@@ -147,7 +154,7 @@ h2 #titreposte
 
 	display: flex;
     overflow:hidden;
- 	align-items: center;     
+     
     position: relative;
   	width : 200px;
   	height: 200px;    
@@ -157,7 +164,7 @@ h2 #titreposte
 
 .TitreCV
 {
-	padding-left: 10%;
+
     border-bottom:2px solid teal; /*bordure du bas */
 	font-size: 40px;
 	font-family : "Times New Roman";
@@ -168,8 +175,10 @@ h2 #titreposte
 {
 	font-size: 14px;
 	font-family : Georgia;
-	color: maroon;	
+	color: black;	
     font-weight: bold;
+    margin-left: 30%;
+	word-wrap: break-word;
 }
 
 .missions
@@ -190,9 +199,14 @@ h2 #titreposte
 	font-size: 16px;
 	width: 100%;
 	margin-bottom: 10px;
-	justify-content: center;
+	margin-left: 30%;
 	font-family: "Comic Sans MS";
 
+}
+
+.etablissementscolaire
+{
+	margin-bottom: 20px;
 }
 
 .date
@@ -200,18 +214,18 @@ h2 #titreposte
 	display: flex;
 	flex-direction: row;
     flex-wrap: nowrap;	
-	color: purple;
+	color: black;
 	width: 100%;
 }
 
 .fa,.fas
 {
+	margin-right: 10%;
 	margin-top: 5%;
 	opacity: 0.8;
 	font-family : Georgia;
 	font-size:36px;		
 }
-
 
 
 /*       ///////Code pour les petits écrans////////       */
@@ -225,9 +239,10 @@ h2 #titreposte
 
 	h3
 	{
-		text-align: left;
-		padding-left: 50px;
-	    margin-top: -2%;	
+		text-align: center;
+		padding-left: 30px;
+	    margin-top: -2%;
+	    margin-left:0%;	
 	}
 
 	h1
@@ -243,6 +258,12 @@ h2 #titreposte
 		text-align: center;
 	}
 
+	.TitreCV
+	{
+		font-size: 30px;
+		width: 100%;
+		overflow: auto;
+	}
 
 	#cvsection
 	{
@@ -264,6 +285,7 @@ h2 #titreposte
 		flex-direction: column;	
 		background-color: teal;
     	width: 100%;  
+    	text-align: left;
 	}
 
 
@@ -280,12 +302,15 @@ h2 #titreposte
 		background-color: white;		
     	padding: 12px; /* Marge intérieure de 12px  */ 
     	width: auto;
+    	overflow: scroll;
 	}
 
 	.etablissement
 
 	{
+		margin-left:0%;
 		justify-content: center;
+		text-align: center;
 	}
 
 	.PhotoProfilDesktop
@@ -326,13 +351,18 @@ h2 #titreposte
 	{
 		font-size: 14px;
 		font-family : Georgia;
-		color: maroon;	
+		color: black;	
    	 	font-weight: bold;
 	}
 
 	.date
 	{
-		color: purple;
+		color: black;
+	}
+	.descriptifposte
+	{
+		width: 100%;
+		text-align: left;
 	}
 
 	.descriptifposte p
@@ -362,10 +392,29 @@ h2 #titreposte
 
 	.fa,.fas
 	{
+		text-align: center;
 		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
 		opacity: 0.8;
 		font-family : Georgia;
 		font-size:36px;		
+	}
+
+	.coordonnees
+	{
+		text-align: center;  
+	}
+
+	.etablissementscolaire
+	{	
+		display: flex;
+		align-self: stretch;	
+	}
+
+	.date
+	{
+	
 	}
 
 }

@@ -17,21 +17,25 @@
     	<section id="cvsection">
     			<section id="lisiere">
     				<figure >
-    					<a id="blockphoto" target="_blank" href ="img/urahara.png"> <img class="PhotoProfilDesktop" src="img/urahara_mini.png"  alt="Photo de Profil URAHARA" title ="Cliquez sur la photo pour l'agrandir" > <!-- target="_blank" OBLIGATOIREMENT après "<a" sinon ça ne marche pas-->
-    					</a> <!-- alt renvoie le texte si l'image ne s'affiche pas -->
-    					<figcaption id="legendephotodesktop">Photo de Profil </figcaption>
-    					</figure>
+    					<div id="positionphotodesktop">
+    						<a id="blockphoto" target="_blank" href ="img/urahara.png"> <img class="PhotoProfilDesktop" src="img/urahara_mini.png"  alt="Photo de Profil URAHARA" title ="Cliquez sur la photo pour l'agrandir" > <!-- target="_blank" OBLIGATOIREMENT après "<a" sinon ça ne marche pas-->
+    						</a> <!-- alt renvoie le texte si l'image ne s'affiche pas -->
+    						<figcaption id="legendephotodesktop">Photo de Profil </figcaption>
+    						</figure>
+    						</div>
+    					</div>	
+
 
 
     				<h2 id="contact">Contact</h2>
 
-    				<i class="fas fa-map-marked-alt icone"></i><span class="coordonnees">14 allée du Hueco Mundo app 220<br/>
+    				<i class="fas fa-map-marked-alt icone"></i><span class="coordonnees"> Adresse : <br/>14 allée du Hueco Mundo app 220<br/>
     				33000 KONOHA</span><br/><br/>
-    				<i class="fas fa-envelope-open-text icone"></i><span class="coordonnees">urahara@toto.com</span><br/><br/>
-    				<i class="fas fa-mobile-alt icone"></i><span class="coordonnees">0602233232</span><br/><br/>
+    				<i class="fas fa-envelope-open-text icone"></i><span class="coordonnees">Mail : <br/>urahara@toto.com</span><br/><br/>
+    				<i class="fas fa-mobile-alt icone"></i><span class="coordonnees">Téléphone : <br/>0602233232</span><br/><br/>
     			
 
-    				<h2 id="competences"> Compétences </h2><br/>
+    				<h2 id="competences">Compétences</h2><br/>
 						<ul >
 							<li>Méthodes de gestion des stocks</li>
 							<li>Méthodes de prévision de vente</li>
@@ -41,12 +45,14 @@
 							<li>HTML/CSS</li>
 						</ul>
 
-					<h2 id="loisirs"> Loisirs </h2><br/>
+					<h2 id="loisirs">Loisirs</h2><br/>
 
 					<!--<i class="fa fa-car"style="font-size:48px;""></i><br/> -->
-					<i class="fas fa-bowling-ball"></i><span>Bowling</span>
-					<i class="fa fa-laptop-code"></i><span> Développement WEB</span>
-					<i class="fas fa-film"></i><span>Films&Séries</span>
+					<div id="fontawesome">
+						<i class="fas fa-bowling-ball"></i>
+						<i class="fa fa-laptop-code"></i>
+						<i class="fas fa-film"></i>
+					</div>
 
 				</section>
 
@@ -60,11 +66,11 @@
     				</figure>   			
     			<h2><span id="titreposte">Dével</span>oppeur Web Freelance</h2>
 
-       			<p class="TitreCV">EXPERIENCES</p>
+       			<p class="TitreCV"><i class="fas fa-graduation-cap"></i>EXPERIENCE PROFESSIONELLE</p>
 
         		<div  class="descriptifposte"> <!-- pas de titre dans la balise paragraphe -->
-    			<div class="date">Depuis mars 2018<br/></div>        		
-        		<div  class="etablissement">CERP BORDEAUX</div>
+    			<div class="date">Depuis mars 2018<br/>BORDEAUX</div>        		
+        		<div  class="etablissement">CERP<br/>CDI</div>
     			<h3>PREPARATEUR DE COMMANDE</h3>
 
     				<ul class="missions">
@@ -73,8 +79,8 @@
     			</div>
 
     			<div class="descriptifposte">
-    				<span class="date">03/2017 – 06/2017</span>    				
-    				<span class="etablissement">MANITOU GLOBAL SERVICES ANCENIS <br/>Stage 12 semaines</span>
+    				<div class="date">03/2017 – 06/2017<br/>ANCENIS</div>    				
+    				<div class="etablissement">MANITOU GLOBAL SERVICES<br/>Stage 12 semaines</div>
     			<h3>GESTIONNAIRE DES STOCKS</h3>   	
 
 					<ul class="missions">
@@ -86,8 +92,9 @@
 				</div>
 
 				<div class="descriptifposte">
-				<span class="date">09/2016 – 03/2017<br/></span>					
-				<span class="etablissement">CERP AGEN<br/>Job étudiant</span>
+				<div class="date">09/2016 – 03/2017<br/>AGEN</div>				
+				<div class="etablissement">CERP<br/>Job étudiant</div>
+				
 				<h3>CHAUFFEUR LIVREUR</h3>	
 
 					<ul class="missions">
@@ -97,8 +104,8 @@
 				</div>
 
 				<div class="descriptifposte">
-				<span class="date">01/2016<br/></span>								
-				<span class="etablissement">CERP BORDEAUX<br/>Stage 4 semaines</span>
+				<div class="date">01/2016<br/>BORDEAUX</div>								
+				<div class="etablissement">CERP<br/>Stage 4 semaines</div>
 				<h3>GESTIONNAIRE DES STOCKS</h3>
 
 					<ul class="missions">
@@ -109,8 +116,8 @@
 				</div>
 
 				<div class="descriptifposte">
-				<span class="date">2011 – 2016<br/></span>					
-				<span class="etablissement">CERP BORDEAUX<br/>CDD</span>
+				<div class="date">2011 – 2016<br/>BORDEAUX</div>					
+				<div class="etablissement">CERP<br/>CDD</div>
 				<h3>MAGASINIER-PREPARATEUR DE COMMANDE</h3>
 
 					<ul class="missions">
@@ -120,21 +127,23 @@
 					</ul>
 				</div>
 
-				<p class="TitreCV">FORMATIONS</p>
+				<p class="TitreCV"><i class="fas fa-suitcase"></i>FORMATIONS</p>
 
-				<span class="diplome">DUT QLIO (QUALITE LOGISTIQUE INDUSTRIELLE ET ORGANISATION)</span><br/>
-				<span class="date"> 2017</span><br/>
-				<span class="etablissementscolaire">Iut de Bordeaux – Site d’Agen</span><br/>
+				<div class="date"> 2020<br/>Formation en ligne</div>
+				<div class="diplome">DEVELOPPEUR WEB<br/></div><br/>
+				<div class="etablissementscolaire"></div>
 
+				<div class="date"> 2017<br/>IUT Bordeaux – Site d’Agen</div>
+				<div class="diplome">DUT QLIO<br/><br/>(QUALITE LOGISTIQUE INDUSTRIELLE ET ORGANISATION)</div><br/>
+				<div class="etablissementscolaire"></div>
 
-				<span class="diplome">BTS IRIST (INFORMATIQUE ET RESEAUX POUR LES INDUSTRIES ET LES SERVICES TECHNIQUES)</span><br/>
-				<span class="date">2012</span><br/>
-				<span class="etablissementscolaire">Lycée Alfred Kastler Bordeaux<br/></span>
+				<div class="date">2012<br/>Lycée Alfred Kastler Bordeaux</div>
+				<div class="diplome">BTS IRIST<br/><br/>(INFORMATIQUE ET RESEAUX POUR LES INDUSTRIES ET LES SERVICES TECHNIQUES)</div><br/>
+				<div class="etablissementscolaire"></div>
 
-		
-				<span class="diplome">BAC STI ELECTRONIQUE (SCIENCES ET TECHNOLOGIES INDUSTRIELLES)<br/></span>
-				<span class="date">2010</span><br/>
-				<span class="etablissementscolaire">Lycée Pape Clément Bordeaux</span><br/>
+				<div class="date">2010<br/>Lycée Pape Clément Bordeaux</div>	
+				<div class="diplome">BAC STI ELECTRONIQUE<br/><br/>(SCIENCES ET TECHNOLOGIES INDUSTRIELLES)<br/></div>
+				<div class="etablissementscolaire"></div>
 			</section>
 
 
