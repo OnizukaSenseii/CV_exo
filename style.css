@@ -138,7 +138,12 @@ h2 #titreposte
 	background-color: black;
 	color: teal;
 }
-
+.descriptifdiplome
+{
+	margin-left: 30%;
+	text-align: left;
+	font-family: "Courier New";
+}
 
 .PhotoProfilSmart
 {
@@ -186,12 +191,14 @@ h2 #titreposte
 
 .diplome
 {
-	font-size: 14px;
-	font-family : Georgia;
+	font-size: 16px;
+	font-family : "Trebuchet MS";
 	color: black;	
     font-weight: bold;
     margin-left: 30%;
 	word-wrap: break-word;
+	width: 75%;
+
 }
 
 .missions
@@ -210,25 +217,21 @@ h2 #titreposte
 	color: black;
 	flex-direction: row;
 	font-size: 16px;
-	width: 100%;
 	margin-bottom: 10px;
 	margin-left: 30%;
 	font-family: "Comic Sans MS";
 
 }
 
-.etablissementscolaire
-{
-	margin-bottom: 20px;
-}
-
 .date
 {
+	float: left;
+	font-family: Georgia;
 	display: flex;
 	flex-direction: row;
     flex-wrap: nowrap;	
 	color: black;
-	width: 100%;
+	width: 25%;
 }
 
 .fa,.fas
@@ -263,7 +266,18 @@ h2 #titreposte
  	padding: 0.4em;
 }
 
-
+.prenomrecommandation
+{	
+	font-family: "Comic Sans MS";
+}
+.postecommandation, .telcommandation
+{
+	font-family: Georgia;
+}
+.mailcommandation
+{
+	font-family: "Courier New";
+}
 
 
 
@@ -346,6 +360,7 @@ h2 #titreposte
 	.etablissement
 
 	{
+		width: 100%;
 		margin-left:0%;
 		justify-content: center;
 		text-align: center;
@@ -410,15 +425,18 @@ h2 #titreposte
 
 	.diplome
 	{
+		margin-left: 0%;
 		font-size: 14px;
-		font-family : Georgia;
 		color: black;	
    	 	font-weight: bold;
+   	 	width: 100%;
+   	 	text-align: center;
 	}
 
 	.date
 	{
 		color: black;
+		width: 100%;
 	}
 	.descriptifposte
 	{
@@ -467,21 +485,17 @@ h2 #titreposte
 		text-align: center;  
 	}
 
-	.etablissementscolaire
-	{	
-		display: flex;
-		align-self: stretch;	
-	}
-
 	#recommandation1
 	{
 		width: 100%;
+		text-align: center;
 	}
 
 	#recommandation2
-		{
-			width: 100%;	
-		}
+	{
+		width: 100%;	
+		text-align: center;
+	}
 
 	.date
 	{
