@@ -54,10 +54,10 @@ h2 #titreposte
 {
 	position: absolute;
 	width: 100%;
-    border-top:2px solid black; /* bordure du haut */	
-    border-bottom:2px solid black; /*bordure du bas */  
-	border-left: 2px solid black; 
-	border-right: 2px solid black; 	
+    border-top:4px solid black; /* bordure du haut */	
+    border-bottom:4px solid black; /*bordure du bas */  
+	border-left: 4px solid black; 
+	border-right: 4px solid black; 	
 }
 
 #lisiere
@@ -65,10 +65,7 @@ h2 #titreposte
 	position: absolute; 
 	display: flex;
 	flex-direction: column;
-	box-sizing: border-box;
-    border-top:2px solid black; /* bordure du haut */	
-    border-bottom:2px solid black; /*bordure du bas */  
-	border-left: 2px solid black;      	
+	box-sizing: border-box;     	
 	background-color: teal;   
 	float: left;
 	height: 100%;
@@ -82,10 +79,7 @@ h2 #titreposte
 	float: right;
 	position: relative;
 	display: flex;
-	flex-direction: column;
-    border-top:2px solid black; /* bordure du haut */	
-    border-bottom:2px solid black; /*bordure du bas */ 
-    border-right: 2px solid black;       	
+	flex-direction: column;      	
     padding: 12px; /* Marge intérieure de 12px */    
 	height: 100%;
 	width: 60%; /* largeur du secteur*/
