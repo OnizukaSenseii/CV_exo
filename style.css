@@ -1,3 +1,525 @@
+<<<<<<< HEAD
+body
+{
+	position: relative;
+	margin : 3%;
+}
+
+#recommandation1
+{
+	float: left;
+	width: 50%;
+}
+
+#recommandation2
+{
+	float: right;
+	width: 50%;	
+}
+
+
+/*       ///////Code pour les écrans ordi ////////       */
+
+h1
+{
+	font-size: 50px;
+	margin-bottom: 0%;
+    text-align: left;   	
+}
+
+h2
+{
+	font-size: 30px;
+	font-family : Georgia ;
+}
+
+h3
+{
+	font-size: 18px;
+	margin-left: 30%;
+    font-weight: normal;
+}
+
+h2 #titreposte
+{
+	text-decoration: underline;
+	text-decoration-color: teal;	
+
+}
+#positionphotodesktop
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#cvsection
+{
+	position: absolute;
+	width: 100%;
+    border-top:4px solid black; /* bordure du haut */	
+    border-bottom:4px solid black; /*bordure du bas */  
+	border-left: 4px solid black; 
+	border-right: 4px solid black; 	
+}
+
+#lisiere
+{
+	position: absolute; 
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;     	
+	background-color: teal;   
+	float: left;
+	height: 100%;
+	width: 35%; /* largeur du secteur*/
+    word-wrap: break-word;
+}
+
+
+#informations 
+{
+	float: right;
+	position: relative;
+	display: flex;
+	flex-direction: column;      	
+    padding: 12px; /* Marge intérieure de 12px */    
+	height: 100%;
+	width: 60%; /* largeur du secteur*/
+    word-wrap: break-word;
+
+
+}
+
+#competences
+{	
+	position: relative;
+	text-align: center;
+	width: 100%;	
+	background-color: black;	
+	color: teal;	
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+#contact
+{	
+	text-align: center;
+	position: relative;
+	width: 100%;	
+	background-color: black;
+	color: teal;	
+	overflow: auto; /*barre de défilement*/
+	word-wrap: break-word;	/* Couple le texte si dépassement du cadre*/
+}
+
+#blockcontact
+{
+	padding-left: 5%;
+}
+
+.coordonnees
+{
+	margin-top: 3%;
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+	font-family : "Times New Roman";  
+}
+
+#loisirs
+{	
+	position: relative;
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	color: teal;
+}
+.descriptifdiplome
+{
+	margin-left: 30%;
+	text-align: left;
+	font-family: "Courier New";
+}
+
+.PhotoProfilSmart
+{
+	display: none;
+
+}
+
+#legendephotosmart
+{
+	display: none;
+}
+
+#prenom
+{
+	color: teal
+}
+
+#legendephotodesktop
+{
+	text-align: center;
+}
+
+
+.PhotoProfilDesktop
+{	
+
+	display: flex;
+    overflow:hidden;
+     
+    position: relative;
+  	width : 200px;
+  	height: 200px;    
+  	border-radius: 50%
+
+}
+
+.TitreCV
+{
+
+    border-bottom:2px solid teal; /*bordure du bas */
+	font-size: 40px;
+	font-family : "Times New Roman";
+	color: black;
+}
+
+.diplome
+{
+	font-size: 16px;
+	font-family : "Trebuchet MS";
+	color: black;	
+    font-weight: bold;
+    margin-left: 30%;
+	word-wrap: break-word;
+	width: 75%;
+
+}
+
+.missions
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 70%;
+	float: right;
+	font-family: "Courier New";
+}
+
+.etablissement
+{
+	display: flex;
+	color: black;
+	flex-direction: row;
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-left: 30%;
+	font-family: "Comic Sans MS";
+
+}
+
+.date
+{
+	float: left;
+	font-family: Georgia;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;	
+	color: black;
+	width: 25%;
+}
+
+.titrefontawesome 
+{
+
+	margin-right: 10%;
+	margin-top: 5%;
+	opacity: 0.8;
+	font-family : Georgia;
+	font-size:36px;		
+}
+
+.loisirsfontawesome 
+{
+
+	margin-right: 10%;
+	margin-top: 5%;
+	opacity: 0.8;
+	font-family : Georgia;
+	font-size:36px;		
+}
+
+
+.icone
+{
+	font-size:36px;	
+}
+
+.point
+{
+	font-size: 15px;
+	padding : 10px;
+	color: teal;
+}
+
+
+#fontawesome
+{
+	align-self: center;
+}
+
+#fontawesome i.fa 
+
+{
+  	margin: 0.5em;
+  	border: 2px solid #303030;
+  	border-radius: 50%;
+  	padding: 0.4em;
+}
+
+#fontawesome i.fas 
+{	
+  	margin: 0.5em;
+ 	border: 2px solid #303030;
+ 	border-radius: 50%;
+ 	padding: 0.4em;
+}
+
+.prenomrecommandation
+{	
+	font-family: "Comic Sans MS";
+}
+.postecommandation, .telcommandation
+{
+	font-family: Georgia;
+}
+.mailcommandation
+{
+	font-family: "Courier New";
+}
+
+
+
+/*       ///////Code pour les petits écrans////////       */
+@media screen and (max-width: 1024px)
+
+{
+	body
+	{
+		position: static;
+	}
+
+	h3
+	{
+		text-align: center;
+		padding-left: 30px;
+	    margin-top: -2%;
+	    margin-left:0%;	
+	}
+
+	h1
+	{
+		font-size: 50px;
+		margin-bottom: 0%;
+    	text-align: center;	
+	}
+
+	h2
+
+	{
+		text-align: center;
+	}
+
+	.TitreCV
+	{
+		font-size: 30px;
+		width: 100%;
+		overflow: auto;
+	}
+
+	#cvsection
+	{
+		position: static;
+		display: flex;
+		flex-direction: column-reverse;
+		flex : none	;
+	    background-color: white;	
+	    width: 100%;
+	}
+
+	#lisiere
+	{
+		border-left: 2px solid black;
+    	border-right: 2px solid black;
+    	border-bottom:2px solid black; /*bordure du bas */
+    	border-top:2px solid black; /* bordure du haut */
+		position: static;		
+		flex-direction: column;	
+		background-color: teal;
+    	width: 100%;  
+	}
+
+
+	#informations 
+	{
+		border-left: 2px solid black;
+   		border-right: 2px solid black;
+    	border-bottom:2px solid black; /*bordure du bas */
+    	border-top:2px solid black; /* bordure du haut */		
+		position: static;
+		display: flex;
+		align-items: center;
+		flex-direction: column;	
+		background-color: white;		
+    	padding: 12px; /* Marge intérieure de 12px  */ 
+    	width: auto;
+    	overflow: scroll;
+	}
+
+	.etablissement
+
+	{
+		width: 100%;
+		margin-left:0%;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.PhotoProfilDesktop
+	{
+		display: none;
+	}
+
+	#legendephotodesktop
+	{
+		display: none;
+	}
+
+	#legendephotosmart
+	{
+		display: block;
+		text-align: center;
+
+	}
+
+
+	#blockphoto
+	{
+		align-content: center;
+	}
+
+	#fontawesome
+	{
+		align-self: center;
+	}
+
+	#fontawesome i.fa 
+
+	{
+  		margin: 0.5em;
+  		border: 2px solid #303030;
+  		border-radius: 50%;
+  		padding: 0.4em;
+	}
+
+	#fontawesome i.fas 
+	{	
+  		margin: 0.5em;
+ 		border: 2px solid #303030;
+ 		border-radius: 50%;
+ 		padding: 0.4em;
+	}
+
+
+	.PhotoProfilSmart
+	{
+		display: flex;
+		text-align: center;		
+    	position: relative;
+  		width : 150px;
+  		height: 150px;    
+  		border-radius: 50%		
+
+	}
+
+	.diplome
+	{
+		margin-left: 0%;
+		font-size: 14px;
+		color: black;	
+   	 	font-weight: bold;
+   	 	width: 100%;
+   	 	text-align: center;
+	}
+
+	.date
+	{
+		color: black;
+		width: 100%;
+	}
+	.descriptifposte
+	{
+		width: 100%;
+		text-align: left;
+	}
+
+	.descriptifposte p
+
+	{
+		display: flex;
+		justify-content: center;
+	}
+
+	#competences
+	{
+		display: flex;
+		overflow: auto;
+		word-wrap: break-word;
+		flex-direction: column-reverse;
+	}
+
+	#contact 
+	{
+		text-align: center;		
+	} 
+
+	.missions
+	{
+		margin-left: 20%;
+	}
+
+
+	.fa,.fas
+	{
+		text-align: center;
+	
+	}
+
+
+	.coordonnees
+	{
+		text-align: center;  
+	}
+
+	#recommandation1
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	#recommandation2
+	{
+		width: 100%;	
+		text-align: center;
+	}
+
+	.date
+	{
+	
+	}
+
+=======
 body{
 	position: relative;
 	margin : 3%;
@@ -517,4 +1039,5 @@ h2 #titreposte
 	
 	}
 
+>>>>>>> 976c87276d16278628616ff3d90c4ea5722395ce
 }
