@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body
 {
 	position: relative;
@@ -707,12 +707,12 @@ h2 #titreposte
 
 .diplome
 {
+	word-wrap: break-word;
 	font-size: 16px;
 	font-family : "Trebuchet MS";
 	color: black;	
     font-weight: bold;
     margin-left: 30%;
-	word-wrap: break-word;
 	width: 75%;
 
 }
@@ -1038,6 +1038,4 @@ h2 #titreposte
 	{
 	
 	}
-
->>>>>>> 976c87276d16278628616ff3d90c4ea5722395ce
 }
