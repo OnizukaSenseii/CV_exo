@@ -68,7 +68,7 @@ h2 #titreposte
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;     	
-	background-color: teal;   
+	background-color: yellow;   
 	float: left;
 	height: 100%;
 	width: 35%; /* largeur du secteur*/
